@@ -60,7 +60,7 @@ class _CategoryDetailsState extends State<CategoryDetails> {
                   ),
                   ).toList(),
                 ),
-                const NewsListWidget(),
+                NewsListWidget(source: sources[selectedSourec], ),
               ],
             ),
           );
